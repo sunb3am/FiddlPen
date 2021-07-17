@@ -16,12 +16,10 @@ function App() {
     theme: 'ayu-dark',
     viewportMargin: Infinity,
     lineNumbers: true,
-    
-//    scrollbarStyle:'simple',
     lineWrapping: true,
   };
-  const client = new PasteClient("fiCunTslLXdOkuJwT4B3DgdSrt5fO4IT");
-  let url = null;
+  // const client = new PasteClient(apikey);
+  // let url = null;
 
 
   const [html,sethtml] = useState('<h1> Hello there! </h1>');
@@ -75,38 +73,38 @@ function App() {
   </div>;
   
 
-  const pasteBinproc = async ()=> {
-    const paste = {api_dev_key: 'dJzBvFUS7oAOqO1-CCT3vZOqqhX6h1Nt',
-             api_option: "paste",        
-             api_paste_name: "yourcode.html",
-             api_paste_code: 
-             `<!DOCTYPE html>
-             <html lang="en">
-             <head>
-               <meta charset="UTF-8">
-               <meta name="viewport" content="width=device-width, initial-scale=1.0">
-               <meta http-equiv="X-UA-Compatible" content="ie=edge">
-               <title>Document</title>
-               <style>
-                 ${css}
-               </style>
-             </head>
-             <body>
-               ${html}
+  // const pasteBinproc = async ()=> {
+  //   const paste = {api_dev_key: 'apikey',
+  //            api_option: "paste",        
+  //            api_paste_name: "yourcode.html",
+  //            api_paste_code: 
+  //            `<!DOCTYPE html>
+  //            <html lang="en">
+  //            <head>
+  //              <meta charset="UTF-8">
+  //              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  //              <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  //              <title>Document</title>
+  //              <style>
+  //                ${css}
+  //              </style>
+  //            </head>
+  //            <body>
+  //              ${html}
        
-               <script type="text/javascript">
-                 ${js}
-               </script>
-             </body>
-             </html>`,
-             api_paste_format: 'html', 
-             api_paste_private: 1,         
-             api_paste_expire_date: "1D",         
-             api_user_key: "",         
-             api_folder_key: "",  
-            }
+  //              <script type="text/javascript">
+  //                ${js}
+  //              </script>
+  //            </body>
+  //            </html>`,
+  //            api_paste_format: 'html', 
+  //            api_paste_private: 1,         
+  //            api_paste_expire_date: "1D",         
+  //            api_user_key: "",         
+  //            api_folder_key: "",  
+  //           }
     
-  }
+  // }
 //     axios.post('https://pastebin.com/api/api_post.php', user, {headers})
 //   .then(response => {
 //       console.log(response);

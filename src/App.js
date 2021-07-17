@@ -4,6 +4,7 @@ import React,{useState} from 'react';
 import { Controlled as CodeMirror } from 'react-codemirror2';
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/monokai.css';
+import 'codemirror/theme/ayu-dark.css';
 import 'codemirror/mode/htmlmixed/htmlmixed';
 import 'codemirror/mode/css/css';
 import 'codemirror/mode/javascript/javascript';
@@ -12,7 +13,7 @@ import axios from 'axios';
 
 function App() {
   const codeMirrorOptions = {
-    theme: 'monokai',
+    theme: 'ayu-dark',
     viewportMargin: Infinity,
     lineNumbers: true,
     
@@ -23,8 +24,8 @@ function App() {
   let url = null;
 
 
-  const [html,sethtml] = useState('<p> Hello there! </p>');
-  const [css,setcss] = useState('p { color: navy };');
+  const [html,sethtml] = useState('<h1> Hello there! </h1>');
+  const [css,setcss] = useState('h1 { color: navy };');
   const [js,setjs] = useState('var today = new Date(); var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds(); document.write(time);');
   const [file,setfile] = useState(1);
   const togglehtml = () => setfile(1);

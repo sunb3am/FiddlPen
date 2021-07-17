@@ -1,8 +1,7 @@
 {
   "name": "reactproj",
   "version": "0.1.0",
-  "homepage": "http://sunb3am.github.io/PenFiddl",
-  "proxy": "https://pastebin.com/api/api_post.php",
+  "homepage": "http://sunb3am.github.io/FiddlPen",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",

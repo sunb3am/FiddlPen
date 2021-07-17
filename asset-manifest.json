@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/PenFiddl/static/css/main.49fedfb0.chunk.css",
+    "main.js": "/PenFiddl/static/js/main.767aad88.chunk.js",
+    "main.js.map": "/PenFiddl/static/js/main.767aad88.chunk.js.map",
+    "runtime-main.js": "/PenFiddl/static/js/runtime-main.36693af9.js",
+    "runtime-main.js.map": "/PenFiddl/static/js/runtime-main.36693af9.js.map",
+    "static/css/2.55ff565d.chunk.css": "/PenFiddl/static/css/2.55ff565d.chunk.css",
+    "static/js/2.3a26a3a1.chunk.js": "/PenFiddl/static/js/2.3a26a3a1.chunk.js",
+    "static/js/2.3a26a3a1.chunk.js.map": "/PenFiddl/static/js/2.3a26a3a1.chunk.js.map",
+    "static/js/3.9cb9c03a.chunk.js": "/PenFiddl/static/js/3.9cb9c03a.chunk.js",
+    "static/js/3.9cb9c03a.chunk.js.map": "/PenFiddl/static/js/3.9cb9c03a.chunk.js.map",
+    "index.html": "/PenFiddl/index.html",
+    "static/css/2.55ff565d.chunk.css.map": "/PenFiddl/static/css/2.55ff565d.chunk.css.map",
+    "static/css/main.49fedfb0.chunk.css.map": "/PenFiddl/static/css/main.49fedfb0.chunk.css.map",
+    "static/js/2.3a26a3a1.chunk.js.LICENSE.txt": "/PenFiddl/static/js/2.3a26a3a1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36693af9.js",
+    "static/css/2.55ff565d.chunk.css",
+    "static/js/2.3a26a3a1.chunk.js",
+    "static/css/main.49fedfb0.chunk.css",
+    "static/js/main.767aad88.chunk.js"
+  ]
+}
